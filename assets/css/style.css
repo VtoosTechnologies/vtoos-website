@@ -1,1 +1,329 @@
-/* VTOOS Website Styles */
+/*==================================================
+VTOOS SOFTWARE SOLUTIONS
+Professional Website
+Part 1B.1
+==================================================*/
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#F4F8FC;
+
+    color:#1F2937;
+
+    overflow-x:hidden;
+
+}
+
+/*====================================
+Variables
+====================================*/
+
+:root{
+
+--primary:#0A66C2;
+
+--secondary:#2196F3;
+
+--dark:#0F172A;
+
+--white:#ffffff;
+
+--light:#F4F8FC;
+
+--shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+/*====================================
+Background
+====================================*/
+
+.background{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+overflow:hidden;
+
+z-index:-1;
+
+background:
+linear-gradient(
+135deg,
+#F8FBFF,
+#EAF4FF);
+
+}
+
+.background span{
+
+position:absolute;
+
+display:block;
+
+width:220px;
+
+height:220px;
+
+border-radius:50%;
+
+background:rgba(33,150,243,.08);
+
+animation:float 18s linear infinite;
+
+}
+
+.background span:nth-child(1){
+
+top:10%;
+
+left:8%;
+
+}
+
+.background span:nth-child(2){
+
+top:65%;
+
+left:15%;
+
+}
+
+.background span:nth-child(3){
+
+top:20%;
+
+right:10%;
+
+}
+
+.background span:nth-child(4){
+
+bottom:8%;
+
+right:18%;
+
+}
+
+.background span:nth-child(5){
+
+top:45%;
+
+left:48%;
+
+}
+
+/*====================================
+Navbar
+====================================*/
+
+header{
+
+width:100%;
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+z-index:999;
+
+}
+
+.navbar{
+
+max-width:1250px;
+
+height:85px;
+
+margin:auto;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:0 30px;
+
+background:rgba(255,255,255,.75);
+
+backdrop-filter:blur(14px);
+
+border-radius:0 0 18px 18px;
+
+box-shadow:var(--shadow);
+
+}
+
+/* Logo */
+
+.logo{
+
+font-size:34px;
+
+font-weight:800;
+
+color:var(--primary);
+
+letter-spacing:1px;
+
+}
+
+/* Menu */
+
+.nav-links{
+
+display:flex;
+
+list-style:none;
+
+gap:35px;
+
+}
+
+.nav-links a{
+
+text-decoration:none;
+
+font-size:16px;
+
+font-weight:500;
+
+color:var(--dark);
+
+transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+color:var(--primary);
+
+}
+
+/* Button */
+
+.demo-btn{
+
+text-decoration:none;
+
+background:linear-gradient(
+90deg,
+var(--primary),
+var(--secondary));
+
+color:white;
+
+padding:13px 28px;
+
+border-radius:50px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.demo-btn:hover{
+
+transform:translateY(-3px);
+
+box-shadow:
+0 12px 25px
+rgba(33,150,243,.35);
+
+}
+
+/*====================================
+Hero
+====================================*/
+
+.hero{
+
+max-width:1250px;
+
+margin:auto;
+
+padding-top:170px;
+
+padding-left:30px;
+
+padding-right:30px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:70px;
+
+min-height:100vh;
+
+}
+
+.hero-left{
+
+flex:1;
+
+}
+
+.hero-left h1{
+
+font-size:60px;
+
+font-weight:800;
+
+line-height:1.2;
+
+color:var(--dark);
+
+margin-bottom:25px;
+
+}
+
+.hero-left span{
+
+color:var(--primary);
+
+}
+
+.hero-left p{
+
+font-size:19px;
+
+line-height:1.8;
+
+color:#555;
+
+max-width:600px;
+
+margin-bottom:40px;
+
+}
