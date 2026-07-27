@@ -585,3 +585,84 @@ display:none;
 }
 
 }
+/*====================================
+Trusted Technologies
+====================================*/
+
+.technologies{
+
+    max-width:1200px;
+
+    margin:80px auto;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+}
+
+.technologies h2{
+
+    font-size:42px;
+
+    color:#0F172A;
+
+    margin-bottom:15px;
+
+}
+
+.technologies p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:45px;
+
+}
+
+.tech-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+}
+
+.tech-card{
+
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:18px;
+
+    padding:28px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    cursor:pointer;
+
+}
+
+.tech-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(33,150,243,.18);
+
+    color:#0A66C2;
+
+}
