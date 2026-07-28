@@ -176,6 +176,20 @@ border-radius:0 0 18px 18px;
 /* Logo */
 
 .logo{
+    .navbar-logo{
+
+height:75px;
+width:auto;
+display:block;
+
+}
+
+.logo{
+
+display:flex;
+align-items:center;
+
+}
 
 text-decoration:none;
 
