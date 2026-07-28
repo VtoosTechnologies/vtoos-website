@@ -176,25 +176,16 @@ border-radius:0 0 18px 18px;
 /* Logo */
 
 .logo{
-    .navbar-logo{
-
-height:75px;
-width:auto;
-display:block;
-
+    display:flex;
+    align-items:center;
+    text-decoration:none;
 }
 
-.logo{
-
-display:flex;
-align-items:center;
-
+.navbar-logo{
+    height:60px;
+    width:auto;
+    display:block;
 }
-
-text-decoration:none;
-
-}
-
 .logo-main{
 
 font-size:34px;
@@ -1623,10 +1614,15 @@ background:#0d4eb5;
 
 }
 .hero-logo{
-    width:220px;
-    margin-bottom:25px;
+    width:100%;
+    max-width:500px;
+    height:auto;
+    display:block;
+    margin:auto;
 }
 .footer-logo{
-    width:220px;
+    width:260px;
+    height:auto;
+    display:block;
     margin-bottom:20px;
 }
