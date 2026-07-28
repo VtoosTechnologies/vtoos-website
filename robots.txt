@@ -1,0 +1,9 @@
+# ==========================================
+# VTOOS Software Solutions
+# robots.txt
+# ==========================================
+
+User-agent: *
+Allow: /
+
+Sitemap: https://vtoostechnologies.github.io/vtoos-website/sitemap.xml
