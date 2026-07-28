@@ -442,7 +442,7 @@ Dashboard
 
     width:100%;
 
-    max-width:470px;
+    max-width:350px;
 
     background:rgba(255,255,255,.75);
 
@@ -1615,10 +1615,8 @@ background:#0d4eb5;
 }
 .hero-logo{
     width:100%;
-    max-width:500px;
+    max-width:650px;
     height:auto;
-    display:block;
-    margin:auto;
 }
 .footer-logo{
     width:260px;
