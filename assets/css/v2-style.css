@@ -179,6 +179,7 @@ border-radius:0 0 18px 18px;
     display:flex;
     align-items:center;
     text-decoration:none;
+    min-width:260px;
 }
 
 .navbar-logo{
