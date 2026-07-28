@@ -257,6 +257,7 @@ transition:.3s;
 .consult-btn:hover{
 
 transform:translateY(-3px);
+}
   /*==========================================
 Hero Section
 ==========================================*/
@@ -812,8 +813,6 @@ font-size:32px;
 .navbar{
 
 padding:0 20px;
-
-}
 
 }
 
