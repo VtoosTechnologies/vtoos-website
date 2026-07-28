@@ -1463,3 +1463,55 @@ margin:auto auto 20px;
 .footer a:hover{
     color:#42a5f5;
 }
+/*=====================================
+Statistics
+=====================================*/
+
+.stats{
+
+padding:80px 8%;
+background:#ffffff;
+
+}
+
+.stats-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+
+}
+
+.stat-card{
+
+background:#fff;
+padding:40px 30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+transition:.35s;
+
+}
+
+.stat-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.stat-card h2{
+
+font-size:52px;
+font-weight:700;
+color:#0d6efd;
+margin-bottom:10px;
+
+}
+
+.stat-card p{
+
+font-size:18px;
+color:#666;
+font-weight:500;
+
+}
