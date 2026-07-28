@@ -1622,3 +1622,11 @@ transform:translateY(-5px);
 background:#0d4eb5;
 
 }
+.hero-logo{
+    width:220px;
+    margin-bottom:25px;
+}
+.footer-logo{
+    width:220px;
+    margin-bottom:20px;
+}
