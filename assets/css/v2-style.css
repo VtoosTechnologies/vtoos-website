@@ -1062,3 +1062,13 @@ text-align:center;
 }
 
 }
+.roadmap{
+position:relative;
+z-index:2;
+overflow:hidden;
+}
+
+.roadmap-container{
+position:relative;
+z-index:2;
+}
