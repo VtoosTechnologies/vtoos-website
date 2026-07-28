@@ -257,9 +257,9 @@ console.log(
 /*====================================
 Scroll To Top
 ====================================*/
+const scrollBtn = document.getElementById("scrollTopBtn");
 
-const scrollBtn =
-document.getElementById("scrollTopBtn");
+if(scrollBtn){
 
 window.addEventListener("scroll",()=>{
 
@@ -286,3 +286,5 @@ behavior:"smooth"
 });
 
 });
+
+}
