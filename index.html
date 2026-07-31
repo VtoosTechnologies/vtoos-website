@@ -1046,25 +1046,29 @@ Contact VTOOS
     </p>
 </div>
 </div>            
-<form class="contact-form">
+<form class="contact-form" id="contactForm">
 
             <input
-                type="text"
-                placeholder="Your Name"
-                required>
+type="text"
+id="name"
+placeholder="Your Name"
+required>
 
             <input
-                type="email"
-                placeholder="Email Address"
-                required>
+type="email"
+id="email"
+placeholder="Email Address"
+required>
 
             <input
-                type="text"
-                placeholder="Company Name">
+type="text"
+id="company"
+placeholder="Company Name">
 
             <textarea
-                rows="6"
-                placeholder="Tell us about your project..."></textarea>
+id="message"
+rows="6"
+placeholder="Tell us about your project..."></textarea>
 
             <button type="submit"
             class="primary-btn">
@@ -1168,6 +1172,7 @@ Footer
     </div>
 
 </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
 <script src="assets/js/v2-script.js"></script>
 <a href="https://wa.me/919789388987?text=Hello%20VTOOS%20Software%20Solutions,%20I%20need%20software%20development%20support."
