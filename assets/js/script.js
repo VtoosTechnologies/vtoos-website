@@ -113,7 +113,7 @@ hero.style.transform="translateY(0)";
 emailjs.init({
     publicKey: "s12-QiLTDg8DaLzpu"
 });
-
+console.log("Contact Form Script Loaded");
 const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
