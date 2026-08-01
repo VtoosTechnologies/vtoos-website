@@ -119,7 +119,7 @@ const contactForm = document.getElementById("contactForm");
 if (contactForm) {
 
     contactForm.addEventListener("submit", function (e) {
-
+console.log("Submit button clicked");
         e.preventDefault();
 
         emailjs.send(
