@@ -288,3 +288,53 @@ behavior:"smooth"
 });
 
 }
+//=========================================
+// EmailJS Contact Form
+//=========================================
+
+emailjs.init({
+    publicKey: "s12-QiLTDg8DaLzpu"
+});
+
+console.log("Contact Form Script Loaded");
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+
+    contactForm.addEventListener("submit", function (e) {
+
+        console.log("Submit button clicked");
+
+        e.preventDefault();
+
+        emailjs.send(
+            "service_qxz51ny",
+            "template_fd2y3v8",
+            {
+                from_name: document.getElementById("name").value,
+                from_email: document.getElementById("email").value,
+                company: document.getElementById("company").value,
+                message: document.getElementById("message").value
+            }
+        )
+
+        .then(function () {
+
+            alert("✅ Thank you! Your enquiry has been sent successfully.");
+
+            contactForm.reset();
+
+        })
+
+        .catch(function (error) {
+
+            console.error(error);
+
+            alert("❌ Failed to send enquiry.");
+
+        });
+
+    });
+
+}
