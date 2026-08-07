@@ -282,7 +282,7 @@ Hero Section
 
     justify-content:space-between;
 
-    gap:70px;
+    gap:40px;
 
     padding:150px 35px 80px;
 
@@ -316,7 +316,7 @@ Hero Section
 
 .hero-left h1{
 
-    font-size:64px;
+    font-size:58px;
 
     line-height:1.2;
 
@@ -430,20 +430,18 @@ Dashboard
 ==========================================*/
 
 .hero-right{
-
     flex:1;
-
     display:flex;
-
+    flex-direction:column;
     justify-content:center;
-
+    align-items:center;
 }
 
 .dashboard-card{
 
     width:100%;
 
-    max-width:350px;
+    max-width:420px;
 
     background:rgba(255,255,255,.75);
 
@@ -1616,8 +1614,10 @@ background:#0d4eb5;
 }
 .hero-logo{
     width:100%;
-    max-width:650px;
+    max-width:460px;
     height:auto;
+    display:block;
+    margin:0 auto 25px;
 }
 .footer-logo{
     width:260px;
