@@ -265,35 +265,20 @@ Hero
 ====================================*/
 
 .hero{
-
-max-width:1250px;
-
+max-width:1300px;
 margin:auto;
-
-padding-top:170px;
-
-padding-left:30px;
-
-padding-right:30px;
-
+padding:140px 40px 80px;
 display:flex;
-
 justify-content:space-between;
-
 align-items:center;
-
-gap:70px;
-
-min-height:100vh;
-
+gap:80px;
+min-height:calc(100vh - 85px);
 }
 
 .hero-left{
-
-flex:1;
-
+flex:0 0 48%;
+max-width:48%;
 }
-
 .hero-left h1{
 
 font-size:60px;
@@ -315,17 +300,11 @@ color:var(--primary);
 }
 
 .hero-left p{
-
-font-size:19px;
-
+font-size:20px;
 line-height:1.8;
-
-color:#555;
-
-max-width:600px;
-
+max-width:520px;
 margin-bottom:40px;
-
+color:#555;
 }
 /*====================================
 Hero Buttons
@@ -665,4 +644,17 @@ Trusted Technologies
 
     color:#0A66C2;
 
+}
+.hero-right{
+flex:0 0 52%;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.hero-right img{
+width:100%;
+max-width:560px;
+height:auto;
+display:block;
 }
