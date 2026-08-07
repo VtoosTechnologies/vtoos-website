@@ -658,3 +658,9 @@ max-width:560px;
 height:auto;
 display:block;
 }
+.hero-logo{
+    width:100%;
+    max-width:500px;
+    display:block;
+    margin:0 auto 30px;
+}
